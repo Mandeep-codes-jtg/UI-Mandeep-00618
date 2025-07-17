@@ -1,6 +1,7 @@
 :root {
   --palette-primary: #ff4900;
   --palette-grey: #ebebeb;
+  --max-width: 1152px;
 }
 
 * {
@@ -15,14 +16,16 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 39px 217px;
-  padding-right: 200px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 40px;
 }
 .header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 43px;
+  margin-right: -17px;
 }
 .navlist {
   list-style: none;
@@ -34,8 +37,20 @@
   color: var(--palette-primary);
 }
 .button {
-  padding: 14px 34px;
+  padding: 14px 35px;
   color: white;
   background-color: var(--palette-primary);
   border: none;
+}
+.wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: -65px;
+}
+.container {
+  width: var(--max-width);
+  min-height: 500px;
+  background-color: white;
+  border: 1px solid var(--palette-grey);
 }
