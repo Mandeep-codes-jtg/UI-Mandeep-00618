@@ -19,6 +19,27 @@
   transform: scale(1.05);
 }
 
+.button--primary--wide {
+  padding: 13px 43px;
+}
+
+.button--secondary {
+  background-color: var(--palette-white);
+  color: var(--palette-primary);
+  border: 1px solid var(--palette-primary);
+}
+
+.heading2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.heading3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: var(--container-max-width);
