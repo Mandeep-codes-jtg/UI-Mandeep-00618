@@ -12,8 +12,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: var(--container-max-width);
-  margin: 0 auto;
   padding: 41px;
 }
 
