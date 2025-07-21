@@ -25,7 +25,7 @@
 .navlist {
   list-style: none;
   display: flex;
-  gap: 38px;
+  gap: 33px;
 }
 
 .nav__link.active {
