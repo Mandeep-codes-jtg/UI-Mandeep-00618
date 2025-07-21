@@ -1,0 +1,25 @@
+:root {
+  --palette-primary: #ff4900;
+  --palette-grey: #ebebeb;
+  --container-max-width: 1169px;
+  --palette-white: white;
+  --palette-black: black;
+}
+
+.button--primary {
+  padding: 14px 35px;
+  color: var(--palette-white);
+  background-color: var(--palette-primary);
+  border: none;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.button--primary:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--container-max-width);
+}
