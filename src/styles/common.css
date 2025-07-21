@@ -4,9 +4,10 @@
   --container-max-width: 1169px;
   --palette-white: white;
   --palette-black: black;
+  --palette-grey-text: grey;
 }
 
-.button--primary {
+.button__primary {
   padding: 14px 35px;
   color: var(--palette-white);
   background-color: var(--palette-primary);
@@ -15,18 +16,25 @@
   cursor: pointer;
 }
 
-.button--primary:hover {
+.button__primary:hover {
   transform: scale(1.05);
 }
 
-.button--primary--wide {
+.button__primary--wide {
   padding: 13px 43px;
 }
 
-.button--secondary {
+.button__secondary {
+  padding: 14px 35px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
   background-color: var(--palette-white);
   color: var(--palette-primary);
   border: 1px solid var(--palette-primary);
+}
+
+.button__secondary:hover {
+  transform: scale(1.05);
 }
 
 .heading2 {
