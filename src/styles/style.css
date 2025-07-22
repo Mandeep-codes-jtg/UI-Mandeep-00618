@@ -163,17 +163,17 @@ body {
 .splide__arrows {
   position: absolute;
   display: flex;
-  bottom: 0;
+  bottom: 11px;
   left: 50%;
   gap: 10px;
 }
 
 .splide__arrow--prev {
-  translate: -49px;
+  transform: translateX(-49px);
 }
 
 .splide__arrow--next {
-  translate: 53px;
+  transform: translateX(53px);
 }
 
 .splide__arrow {
