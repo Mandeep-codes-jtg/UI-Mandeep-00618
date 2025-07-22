@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 41px;
+  box-sizing: content-box;
 }
 
 .header__content {
@@ -100,4 +101,155 @@ body {
   justify-content: center;
   align-items: flex-end;
   margin-top: 60px;
+  align-items: center;
+  margin: 59px 0 0 0;
+}
+
+.splide {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+#carousel-heading {
+  text-align: center;
+  margin-top: 93px;
+  margin-bottom: 40px;
+}
+
+.splide__slide {
+  border: 1px solid var(--palette-grey);
+}
+
+.blog-details {
+  margin: 37px 0 0 0;
+  border-left: 3px solid var(--palette-primary);
+  padding: 4px 0 4px 30px;
+  font-size: 14px;
+}
+
+.blog-details__author {
+  display: inline-block;
+  font-size: 17px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  color: var(--palette-primary);
+}
+
+.blog-details__date,
+.blog-details__publisher {
+  color: var(--palette-grey-text);
+}
+
+.slide__text {
+  padding: 0 23px 0 39px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.slide__text h3 {
+  line-height: 33px;
+  padding: 4px 0;
+}
+
+.slide__text p {
+  line-height: 22px;
+}
+
+.splide__slide button {
+  margin: 25px 20px 40px 37px;
+}
+
+.splide__arrows {
+  position: absolute;
+  display: flex;
+  bottom: 11px;
+  left: 50%;
+  gap: 10px;
+}
+
+.splide__arrow--prev {
+  transform: translateX(-49px);
+}
+
+.splide__arrow--next {
+  transform: translateX(53px);
+}
+
+.splide__arrow {
+  background-color: white;
+}
+
+.footer__content {
+  display: flex;
+  margin: 86px 60px;
+  border-bottom: 1px solid var(--palette-grey-text);
+  padding-bottom: 68px;
+  margin-bottom: 0;
+}
+
+.organization {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.organization p {
+  line-height: 20px;
+  color: var(--palette-grey-text);
+}
+
+.socials {
+  display: flex;
+  gap: 28px;
+}
+
+.socials__image {
+  border: 1px solid var(--palette-primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.pages {
+  margin-left: 122px;
+}
+
+.recent-blogs {
+  margin-left: 133px;
+}
+
+.partners {
+  margin-left: 132px;
+}
+
+.pages h4,
+.recent-blogs h4,
+.partners h4 {
+  margin: 18px 0 28px 0;
+}
+
+.pages ul,
+.recent-blogs ul,
+.partners ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: var(--palette-grey-text);
+}
+
+.partners ul {
+  gap: 13px;
+}
+
+.footer__copyright {
+  color: var(--palette-grey-text);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 55px;
+  margin-bottom: 100px;
 }
